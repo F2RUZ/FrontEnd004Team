@@ -4,6 +4,7 @@ import Intro from "./components/Intro";
 import Business from "./components/Business";
 import Decor from "./components/Decor";
 import Pro from "./components/Pro";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Business />
       <Decor />
       <Pro />
+      <Footer />
     </div>
   );
 };
